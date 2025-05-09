@@ -12,7 +12,7 @@ You can safely delete the Template Instructions section of this README.md file a
 
 1. Use this template to create your GitHub project repo
 
-1. In your newly created repo click on the green Code button. 
+1. In your newly created repo click on the green Code button.
 
 1. Then, from the Codespaces tab, click Create codespace on main.
 
@@ -60,9 +60,54 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 - List your business requirements and a rationale to map them to the Data Visualisations and ML tasks.
 
-## ML Business Case
+## ML Business Case Assessment
 
-- In the previous bullet, you potentially visualised an ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
+### Business Case Requirements
+
+- The client is interested in conducting a study to visually differentiate a cherry leaf that is healthy from one that contains powdery mildew. The study should include anaysis on:
+  - average images and variability images for each class (healthy or powdery mildew),
+  - the differences between average healthy and average powdery mildew cherry leaves,
+  - an image montage for each class.
+- The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
+
+### Conventional Data Analysis
+
+- We can use conventional data analysis to conduct a study to visually differentiate a cherry leaf that is healthy from one that contains powdery mildew.
+
+### API or Dashboard
+
+- The client needs a dashboard.
+
+### Successful Project Outcome
+
+- A study showing how to visually differentiate a cherry leaf that is healthy from one that contains powdery mildew.
+- Also, the capability to predict if a cherry leaf is healthy or contains powdery mildew.
+
+### Epics
+
+- Information gathering and data collection.
+- Data visualization, cleaning, and preparation.
+- Model training, optimization and validation.
+- Dashboard planning, designing, and development.
+- Dashboard deployment and release.
+
+### Ethical or Privacy Concerns
+
+- The client provided the data under an NDA (non-disclosure agreement), therefore the data should only be shared with professionals that are officially involved in the project.
+
+### Suggested ML Model
+
+- The data suggests a binary classifier, indicating whether a particular cherry leaf is healthy or contains powdery mildew.
+
+### Performance Goal
+
+- We agreed with the client a degree of 97% accuracy.
+
+### Benefit Statement
+
+- The client will not supply the market with a product of compromised quality.
+
+Credit Code Institute Mildew Dectection in Cherry Leaves Handbook for Business Case Assessmemnt text.
 
 ## Dashboard Design
 
